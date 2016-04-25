@@ -1,14 +1,14 @@
 # docker-debian
-A docker image based on Debian
+A localized docker image based on Debian testing.
 
 ## Build
 ```
-docker build -t="hal91190/debian" .
+docker build -t="hal91190/debian-testing-fr" .
 ```
 
 ## Run
 ```
-docker run -i -t hal91190/debian
+docker run -it --rm hal91190/debian-testing-fr
 ```
 
 
